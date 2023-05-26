@@ -1,0 +1,17 @@
+INDEX VERSION 1.131+E:\PrashantAndhale\TestingPractice\TestNGP\ArtOfTestingAutomationFramework-master\.metadata\.plugins\org.eclipse.jdt.core
+1109593988.index
+114890711.index
+3684939208.index
+1729178197.index
+533583584.index
+2757987064.index
+665044887.index
+2226181084.index
+1635855705.index
+3155224387.index
+3158139418.index
+815835486.index
+1836596847.index
+1865797976.index
+3571428531.index
+2226150840.index

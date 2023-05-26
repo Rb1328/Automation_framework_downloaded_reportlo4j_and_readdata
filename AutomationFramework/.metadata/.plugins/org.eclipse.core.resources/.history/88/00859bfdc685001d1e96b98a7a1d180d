@@ -1,0 +1,33 @@
+package com.Extent.Report.Ex;
+
+import java.util.logging.Logger;
+
+import org.testng.Assert;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
+
+
+
+public class TC_LoginTest_001 extends BaseClass{
+	
+	@Test
+	public void loginTest() {
+		driver.get(baseUrl);
+	
+		
+		loginTest lg=new loginTest(driver);
+		lg.setUserName(uname);
+		lg.setPassword(pwd); 
+		lg.clickSubmit();
+		
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage")){
+			AssertJUnit.assertTrue(true);
+		}
+		else {
+			AssertJUnit.assertTrue(false);
+		}
+			
+	}	
+	
+
+}
